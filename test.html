@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #2980b9 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .profile-image {
+            float: left;
+            margin-right: 20px;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        footer {
+            background: #50b3a2;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">你的姓名</span> 的个人主页</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">关于我</a></li>
+                    <li><a href="#skills">专业技能</a></li>
+                    <li><a href="#projects">项目与成就</a></li>
+                    <li><a href="#contact">联系方式</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="content">
+        <div class="container">
+            <h2>关于我</h2>
+            <img src="你的照片URL" alt="你的姓名" class="profile-image" width="150">
+            <p>我是[你的姓名]，一名专注于亚马逊选品开发的专业人士，拥有[相关经验年数]年的行业经验。我擅长市场分析、产品选择和供应链管理，致力于为客户提供高效且有竞争力的选品方案。</p>
+        </div>
+    </section>
+
+    <section id="skills" class="content">
+        <div class="container">
+            <h2>专业技能</h2>
+            <ul>
+                <li>市场分析</li>
+                <li>产品选择</li>
+                <li>供应链管理</li>
+                <li>数据分析</li>
+                <li>电子商务平台操作（如亚马逊、eBay 等）</li>
+                <li>与供应商和客户的沟通协调</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="content">
+        <div class="container">
+            <h2>项目与成就</h2>
+            <ul>
+                <li>项目一：描述项目背景、你的角色及其成果。</li>
+                <li>项目二：描述项目背景、你的角色及其成果。</li>
+                <li>项目三：描述项目背景、你的角色及其成果。</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="content">
+        <div class="container">
+            <h2>联系方式</h2>
+            <p>姓名：你的姓名</p>
+            <p>电话：你的联系电话</p>
+            <p>邮箱：你的电子邮件地址</p>
+            <p>地址：你的地址（可选）</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2024 你的姓名. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
